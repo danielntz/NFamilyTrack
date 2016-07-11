@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FamilyTrack</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">获取位置信息</string>
+    <string name="common_map">普通地图</string>
+    <string name="star_map">卫星地图</string>
+   <string name="traffic_map">交通地图</string>
+   <string name="mylocate">我的位置</string>
+   <string name="addthing">添加覆盖物</string>
+</resources>

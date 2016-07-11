@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.coolmap.MainActivity" >
+  
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+       android:showAsAction="ifRoom|withText"
+         />
+  
+     <item 
+            android:id="@+id/common_map"
+            android:orderInCategory="100"
+            android:title="@string/common_map"
+             android:showAsAction="ifRoom|withText"/>
+    
+     <item 
+            android:id="@+id/star_map"
+            android:orderInCategory="200"
+            android:title="@string/star_map"
+            android:showAsAction="ifRoom|withText"/>
+     <item 
+            android:id="@+id/traffic_map"
+            android:orderInCategory="100"
+            android:title="@string/traffic_map"
+             android:showAsAction="ifRoom|withText"/>
+        <item 
+            android:id="@+id/locate"
+            android:orderInCategory="100"
+            android:title="@string/mylocate"
+            android:showAsAction="ifRoom|withText"/>
+        <item 
+                     android:id="@+id/addthing"
+                     android:orderInCategory="100"
+                     android:title="@string/addthing"
+                  android:showAsAction="ifRoom|withText"
+                 />
+        <item
+                      android:id="@+id/locateoldman"
+                      android:orderInCategory="100"
+                      android:title="定位老人"
+                      android:showAsAction="ifRoom|withText"
+    
+               />
+        <item  
+                          android:id="@+id/watchguiji"
+                           android:orderInCategory="100"
+                           android:title="查看老人轨迹路线"
+                           android:showAsAction="ifRoom|withText"/>
+</menu>

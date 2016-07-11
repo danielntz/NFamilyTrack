@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+     <TextView    
+                               android:id="@+id/common_map"
+                               android:layout_height="wrap_content"
+                               android:layout_width="wrap_content"
+                               android:text="普通地图"/>
+<TextView    
+                               android:id="@+id/star_map"
+                               android:layout_height="wrap_content"
+                               android:layout_width="wrap_content"
+                               android:text="卫星地图"/>
+<TextView    
+                               android:id="@+id/traffic_map"
+                               android:layout_height="wrap_content"
+                               android:layout_width="wrap_content"
+                               android:text="实时交通"/>
+  <TextView     
+                             android:id="@+id/mylocate"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="我的位置"/>
+      <TextView    
+                                    android:id="@+id/add"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="添加覆盖物"/>
+</LinearLayout>
